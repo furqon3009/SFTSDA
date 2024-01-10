@@ -102,11 +102,11 @@ if __name__ == "__main__":
     parser.add_argument('--da_method', default='SFTSDA', type=str, help='SHOT, AaD, NRC, MAPU,')
 
     # ========= Select the DATASET ==============
-    parser.add_argument('--data_path', default=r'/home/furqon/mapu/MAPU_SFDA_TS/data/MFD Dataset', type=str, help='Path containing datase2t')
+    parser.add_argument('--data_path', default=r'/home/furqon/SFTSDA/data/MFD Dataset', type=str, help='Path containing datase2t')
     parser.add_argument('--dataset', default='FD', type=str, help='Dataset of choice: (WISDM - EEG - HAR - HHAR_SA)')
-    # parser.add_argument('--data_path', default=r'/home/furqon/mapu/MAPU_SFDA_TS/data/HAR Dataset', type=str, help='Path containing datase2t')
+    # parser.add_argument('--data_path', default=r'/home/furqon/SFTSDA/data/HAR Dataset', type=str, help='Path containing datase2t')
     # parser.add_argument('--dataset', default='HAR', type=str, help='Dataset of choice: (WISDM - EEG - HAR - HHAR_SA)')
-    # parser.add_argument('--data_path', default=r'/home/furqon/mapu/MAPU_SFDA_TS/data/SSC Dataset', type=str, help='Path containing datase2t')
+    # parser.add_argument('--data_path', default=r'/home/furqon/SFTSDA/data/SSC Dataset', type=str, help='Path containing datase2t')
     # parser.add_argument('--dataset', default='EEG', type=str, help='Dataset of choice: (WISDM - EEG - HAR - HHAR_SA)')
 
     # ========= Select the BACKBONE ==============
