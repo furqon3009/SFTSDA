@@ -1,11 +1,11 @@
-# TFDA
-Time-Frequency Domain Adaptation (TFDA) approach addressing the absence of source-domain samples in the time-series unsupervised domain adaptation problems.
+# SFTFDA
+Source-Free Time-Series Domain Adaptation (SFTSDA) approach addressing the absence of source-domain samples in the time-series unsupervised domain adaptation problems.
 
 The code is based on the MAPU framework that taken from [github.com/mohamedr002/MAPU_SFDA_TS](https://github.com/mohamedr002/MAPU_SFDA_TS)
 
 ## Abstract
 <img src="SFTSDA.png" width="500">
-The issue of source-free time-series domain adaptations still gains scarce research attentions. On the other hand, existing approaches rely solely on time-domain features ignoring frequency components. This paper proposes Time Frequency Domain Adaptation (TFDA), a novel approach to address the absence of source-domain samples in the time-series unsupervised domain adaptation problems. TFDA is developed with a dual branch network structure fully utilizing both time and frequency features in delivering final predictions. It induces pseudo-labels based on a neighborhood concept where predictions of a sample group are aggregated to generate reliable pseudo labels. The concept of contrastive learning is carried out in both time and frequency domains with pseudo-label information and a negative pair exclusion strategy to make valid neighborhood assumptions. In addition, the time-frequency consistency technique is proposed using the self-distillation strategy while the uncertainty reduction strategy is implemented to alleviate uncertainties due to the domain shift problem. Last but not least, the curriculum learning strategy is integrated to combat noisy pseudo labels. Our experiments demonstrate the advantage of our approach over prior arts with noticeable margins in benchmark problems.
+More research attention is still required for source-free time-series domain adaptations. However, current approaches rely on a simple pseudo-labelling strategy and require early memorization of noisy pseudo-labels. This study introduces Source-Free Time-Series Domain Adaptation as a new method to tackle the absence of source-domain samples in unsupervised time-series domain adaptation issues. SFTSDA utilizes a neighborhood pseudo-labelling approach that takes into account the predictions of a sample group when generating pseudo-labels. Additionally, it is trained to minimize contrastive loss so that samples of the same class are close to each other while those of different classes are far apart. An uncertainty reduction strategy is implemented to alleviate prediction uncertainties resulting from domain shifts. Lastly, curriculum learning strategy and the mean teacher framework are developed to address the issue of noisy pseudo-labels. Our experiments demonstrate the superiority of our approach over previous methods in benchmark problems with significant improvements.
 
 ## Requirmenets:
 - Python3
