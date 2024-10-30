@@ -19,7 +19,7 @@ More research attention is still required for source-free time-series domain ada
 
 ## Datasets
 ### Download Datasets
-We used three public datasets in this study. We also provide the preprocessed versions as follows:
+We used three public datasets in this study, taken from [github.com/mohamedr002/MAPU_SFDA_TS](https://github.com/mohamedr002/MAPU_SFDA_TS):
 - [SSC](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/UD1IM9)
 - [UCIHAR](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/0SYHTZ)
 - [MFD](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/PU85XN)
